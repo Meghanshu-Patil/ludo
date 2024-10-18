@@ -1,0 +1,123 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+ body{
+     display: flex; 
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(22, 21, 21);
+} 
+.nav{
+    
+    background-color: transparent;
+    display:flex;
+    text-align: center;
+}
+.ludo{
+    background-color: rgb(245, 240, 240);
+    height: 750px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blue,.red,.yellow,.green{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* *******colour***** */
+.blue{
+    background-color: rgb(20, 109, 211);
+    
+}
+.red{
+    background-color:rgb(181, 50, 50);
+}
+.yellow{
+    background-color: rgb(228, 244, 106);
+}
+.green{
+    background-color: rgb(49, 182, 49);
+}
+
+/* ***** arow color ******* */
+.bluearrow{
+    color: rgb(20, 109, 211);
+}
+.redarrow{
+    color: rgb(181, 50, 50);
+}
+.yellowarrow{
+    color: rgb(228, 244, 106);
+}
+.greenarrow{
+    color: rgb(50, 179, 50);
+}
+
+/************** inside box**************** */
+.box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.box .insidebox{
+    width: 60px;
+    height: 60px;
+    /* background-color: aqua; */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* colour of small box  */
+.redbackground{
+    background-color: rgb(181, 50, 50);
+}
+.bluebackground{
+    background-color: rgb(20, 109, 211);
+}
+.yellowbackground{
+    background-color: rgb(228, 244, 106);
+}
+.greenbackground{
+    background-color: rgb(50, 179, 50);
+}
+
+/* ***********isquare collem ****** */
+.square{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    font-size: 37px;
+    text-align: center;
+    border-radius: 10px;
+}
+.squarecollem{
+    display: flex;
+}
+
+.row{
+  width: 750px;
+  height: 150px ;  
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.row1{
+    display: flex;
+} 
